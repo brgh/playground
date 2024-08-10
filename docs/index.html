@@ -12,14 +12,24 @@
     </header>
     <main>
       <h3>Please help in testing the checkboxes below. Select a checkbox and the date/time will display to the right of the checkbox!</h3>
-      <label class="box" for="cb1">
-        <input id="cb1" type="checkbox" />Test time 1</label>
-      <label class="box" for="cb2">
-        <input id="cb2" type="checkbox" />Test time 2</label>
-      <label class="box" for="cb3">
-        <input id="cb3" type="checkbox" />Test time 3</label>
-      <label class="box" for="cb4">
-        <input id="cb4" type="checkbox" />Test time 4</label>
+      <table>
+        <thead>
+          <tr>
+            <th>Checkbox</th>
+            <th>Date time last modified</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><input id="cb1" type="checkbox" /></td>
+            <td id="cb1-value">(placeholder)</td>
+          </tr>
+          <tr>
+            <td><input id="cb2" type="checkbox" /></td>
+            <td id="cb2-value">(placeholder)</td>
+          </tr>
+        </tbody>
+      </table>
     </main>
   </body>
 </html>

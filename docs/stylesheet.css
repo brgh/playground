@@ -7,9 +7,14 @@ body {
     margin: 0; 
     height: 100vh;
 }
-.box {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: flex-start;
+
+table {
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 50%;
+    margin-left: 50px
+}
+
+table td {
+    text-align: center;
 }
